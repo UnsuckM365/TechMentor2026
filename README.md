@@ -1,8 +1,10 @@
-# TechMentor 2026 - Microsoft 365 Admin Intelligence
+# Microsoft 365 Admin Intelligence - TechMentor 2026
 
 Resources, examples, and demos from my TechMentor 2026 session:
 
 **TW18 - Stop Drowning in Updates: Build a System for Microsoft 365 Admin News and Roadmap Alerts**
+
+[View the full repository](https://github.com/UnsuckM365/TechMentor2026)
 
 The goal of this session was simple:
 
@@ -18,43 +20,63 @@ Instead of manually reading hundreds of updates, we can build systems that colle
 
 This repository contains examples used during the session to demonstrate different ways of consuming and processing Microsoft 365 Roadmap information.
 
-### MCP
+---
+
+## MCP
+
+[Browse the MCP folder](https://github.com/UnsuckM365/TechMentor2026/tree/main/MCP)
 
 Examples using Microsoft's Microsoft 365 Roadmap **Model Context Protocol (MCP) server**.
 
-The MCP server allows AI tools and agents to query Microsoft 365 Roadmap information directly instead of manually browsing or scraping the public roadmap.
+The MCP server allows AI tools and agents to query Microsoft 365 Roadmap information directly instead of manually browsing the public roadmap.
 
-Examples in this folder include:
+Examples include:
 
-- Monthly Microsoft 365 Roadmap reports
-- Current-month roadmap queries
+- [M365 Roadmap Report - August 2026](https://github.com/UnsuckM365/TechMentor2026/blob/main/MCP/M365_Roadmap_Report_August_2026.md)
+- [Microsoft 365 Current Month Prompt / Template](https://github.com/UnsuckM365/TechMentor2026/blob/main/MCP/Microsoft365-CurrentMonth.md)
 - Categorized roadmap results
 - Prioritized or highlighted changes
-- AI-generated summaries based on live roadmap data
+- AI-generated summaries based on roadmap data
 
 These examples demonstrate how tools that support MCP can turn roadmap data into useful reports with very little custom development.
 
+### Microsoft Resources
+
+- [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap)
+- [Microsoft 365 Roadmap MCP](https://www.microsoft.com/releasecommunications/mcp)
+
 ---
 
-### SharePoint Skills
+## SharePoint Skills
+
+[Browse the SharePoint folder](https://github.com/UnsuckM365/TechMentor2026/tree/main/SharePoint)
 
 Examples showing how Microsoft 365 Roadmap intelligence can be packaged into reusable **SharePoint skills**.
 
-Two example skills are included:
+### `m365-roadmap-list`
 
-#### `m365-roadmap-list`
+[View the skill](https://github.com/UnsuckM365/TechMentor2026/tree/main/SharePoint/m365-roadmap-list)
 
 Designed to retrieve and organize Microsoft 365 Roadmap information into a structured list of relevant changes.
 
-#### `m365-roadmap-monthly-report`
+[View SKILL.md](https://github.com/UnsuckM365/TechMentor2026/blob/main/SharePoint/m365-roadmap-list/SKILL.md)
+
+### `m365-roadmap-monthly-report`
+
+[View the skill](https://github.com/UnsuckM365/TechMentor2026/tree/main/SharePoint/m365-roadmap-monthly-report)
 
 Designed to generate a monthly Microsoft 365 Roadmap report containing selected updates, summaries, impact information, and recommended items to watch.
 
-The generated August 2026 report and FAQ are included as examples of the output.
+[View SKILL.md](https://github.com/UnsuckM365/TechMentor2026/blob/main/SharePoint/m365-roadmap-monthly-report/SKILL.md)
+
+Example outputs:
+
+- [M365 Roadmap Monthly Report - August 2026](https://github.com/UnsuckM365/TechMentor2026/blob/main/SharePoint/M365%20Roadmap%20Monthly%20Report%20-%20August%202026.md)
+- [FAQ - M365 Roadmap Monthly Report - August 2026](https://github.com/UnsuckM365/TechMentor2026/blob/main/SharePoint/FAQ%20-%20M365%20Roadmap%20Monthly%20Report%20-%20August%202026.md)
 
 For additional SharePoint skill examples:
 
-https://github.com/UnsuckM365/sharepoint-ai-skills
+[UnsuckM365 SharePoint AI Skills](https://github.com/UnsuckM365/sharepoint-ai-skills)
 
 ---
 
@@ -64,83 +86,20 @@ The Microsoft 365 Roadmap is only one source of change information.
 
 During the session we looked at a progression like this:
 
-**Microsoft Roadmap**
-
-↓  
-
-**Message Center**
-
-↓  
-
-**Filtering and prioritization**
-
-↓  
-
-**Automation**
-
-↓  
-
-**Planner / SharePoint / Teams / Email**
-
-↓  
-
-**Your organization's Microsoft 365 roadmap**
-
-The objective is not to reproduce everything Microsoft publishes.
-
-The objective is to identify the changes that affect **your users, configuration, governance, support, adoption, and planning**.
-
----
-
-## Ways to Consume Microsoft 365 Updates
-
-The session explored several approaches, from simple to more advanced:
-
-- Microsoft 365 Roadmap
-- Microsoft 365 Admin Center
-- Admin Center email notifications
-- Microsoft 365 Roadmap MCP
-- AI-assisted roadmap analysis
-- SharePoint skills
-- Power Automate
-- Planner
-- SharePoint lists
-- Teams notifications
-- Custom change dashboards
-
-You do not need all of them.
-
-The useful architecture is the one that removes noise and gets the right change to the right people at the right time.
-
----
-
-## Example Workflow
-
-A practical implementation might look like:
-
 ```text
-Microsoft 365 Update
+Microsoft 365 Roadmap
         |
         v
-Collect
-Roadmap / Message Center
+Microsoft 365 Message Center
         |
         v
-Filter
-Products / services / tenant relevance
+Filtering and prioritization
         |
         v
-Analyze
-Impact / urgency / audience
+Automation
         |
         v
-Categorize
-Teams / SharePoint / Copilot / Security / etc.
-        |
-        v
-Route
 Planner / SharePoint / Teams / Email
         |
         v
-Act
-Test / communicate / configure / document
+Your organization's Microsoft 365 roadmap
