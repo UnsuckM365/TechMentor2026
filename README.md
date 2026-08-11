@@ -41,13 +41,13 @@ The reusable SharePoint skills demonstrated during the session are maintained in
 
 Retrieves Microsoft 365 Roadmap items for the current month and saves each item as a row in a SharePoint list.
 
-[View the skill](https://github.com/UnsuckM365/sharepoint-ai-skills/tree/main/m365-roadmap-list)
+[View the skill](https://github.com/UnsuckM365/sharepoint-ai-skills/tree/main/m365-roadmap-list/SKILL.md)
 
 ### m365-roadmap-monthly-report
 
 Generates and saves a monthly Microsoft 365 Roadmap report covering items with activity during the current month.
 
-[View the skill](https://github.com/UnsuckM365/sharepoint-ai-skills/tree/main/m365-roadmap-monthly-report)
+[View the skill](https://github.com/UnsuckM365/sharepoint-ai-skills/tree/main/m365-roadmap-monthly-report/SKILL.md)
 
 Example outputs from the session:
 
