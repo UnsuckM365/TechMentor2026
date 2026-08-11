@@ -26,7 +26,8 @@ Examples using Microsoft's Microsoft 365 Roadmap **Model Context Protocol (MCP) 
 Microsoft resources:
 
 - [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap)
-- [Microsoft 365 Roadmap MCP](https://www.microsoft.com/releasecommunications/mcp)
+- [Microsoft Release Communications MCP Server](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/mrc-mcp)
+- [M365 MCP URL](https://www.microsoft.com/releasecommunications/mcp)
 
 ---
 
