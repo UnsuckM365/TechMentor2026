@@ -42,8 +42,6 @@ The objective is to identify the changes that affect **your users, configuration
 
 ---
 
----
-
 ## MCP
 
 Examples using Microsoft's Microsoft 365 Roadmap **Model Context Protocol (MCP) server**.
