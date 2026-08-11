@@ -16,6 +16,34 @@ Instead of manually reading hundreds of updates, we can build systems that colle
 
 ---
 
+## The Bigger Idea
+
+The Microsoft 365 Roadmap is only one source of change information.
+
+The session showed how to move from:
+
+**Microsoft 365 Roadmap + Message Center**
+
+to:
+
+**Filtering + prioritization + automation**
+
+to:
+
+**Planner + SharePoint + Teams + Email**
+
+to:
+
+**Your organization's Microsoft 365 roadmap**
+
+The objective is not to reproduce everything Microsoft publishes.
+
+The objective is to identify the changes that affect **your users, configuration, governance, support, adoption, and planning**.
+
+---
+
+---
+
 ## MCP
 
 Examples using Microsoft's Microsoft 365 Roadmap **Model Context Protocol (MCP) server**.
@@ -53,32 +81,6 @@ Example outputs from the session:
 
 - [M365 Roadmap Monthly Report - August 2026](https://github.com/UnsuckM365/TechMentor2026/blob/main/SharePoint/M365%20Roadmap%20Monthly%20Report%20-%20August%202026.md)
 - [FAQ - M365 Roadmap Monthly Report - August 2026](https://github.com/UnsuckM365/TechMentor2026/blob/main/SharePoint/FAQ%20-%20M365%20Roadmap%20Monthly%20Report%20-%20August%202026.md)
-
----
-
-## The Bigger Idea
-
-The Microsoft 365 Roadmap is only one source of change information.
-
-The session showed how to move from:
-
-**Microsoft 365 Roadmap + Message Center**
-
-to:
-
-**Filtering + prioritization + automation**
-
-to:
-
-**Planner + SharePoint + Teams + Email**
-
-to:
-
-**Your organization's Microsoft 365 roadmap**
-
-The objective is not to reproduce everything Microsoft publishes.
-
-The objective is to identify the changes that affect **your users, configuration, governance, support, adoption, and planning**.
 
 ---
 
