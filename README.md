@@ -1,5 +1,7 @@
 # Microsoft 365 Admin Intelligence - TechMentor 2026
 
+![Title Image](https://github.com/UnsuckM365/TechMentor2026/blob/main/Assets/M365-Admin.png "Stop Drowning in Updates: Build a System for Microsoft 365 Admin News and Roadmap Alerts")
+
 Resources, examples, and demos from my TechMentor 2026 session:
 
 **TW18 - Stop Drowning in Updates: Build a System for Microsoft 365 Admin News and Roadmap Alerts**
